@@ -1,3 +1,5 @@
+
+
 .homemade-apple-regular {
   font-family: "Homemade Apple", cursive;
   font-weight: 400;
@@ -6,7 +8,7 @@
 
 *{
   overflow: hidden;
-  font-weight: 900;
+
 }
 
 body {
@@ -25,7 +27,7 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-/*  min-width: 800px; */
+ /* min-width: 800px; */
   
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
@@ -42,6 +44,8 @@ body {
 }
 
 .paper.image {
+   /* height: 200px; */
+  width: 500px;
   padding: 10px;
 }
 .paper.image p {
@@ -49,8 +53,8 @@ body {
 }
 
 img {
-   max-height: 100%;
-  width: 100%;
+  width: 500px;
+  height: 500px;
   user-select: none;
 }
 
@@ -69,10 +73,11 @@ img {
 }
 
 p {
+  font-weight: 900;
+  font-family: "Homemade Apple";
   font-size: 50px;
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
   
-  filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
-}
+  }
