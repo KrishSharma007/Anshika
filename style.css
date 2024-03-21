@@ -3,6 +3,7 @@
 
 *{
   overflow: hidden;
+  font-weight: 900; 
 }
 
 body {
@@ -45,8 +46,8 @@ body {
 }
 
 img {
-  max-height: 200px;
-  width: 200px;
+  max-height: 300px;
+  width: 300px;
   user-select: none;
 }
 
