@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
-
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 *{
   overflow: hidden;
-  font-weight: 900; 
+  font-weight: 900;
 }
 
 body {
@@ -42,12 +45,12 @@ body {
   padding: 10px;
 }
 .paper.image p {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 img {
-  max-height: 300px;
-  width: 300px;
+   max-height: 100%;
+  width: 100%;
   user-select: none;
 }
 
@@ -72,5 +75,5 @@ p {
   opacity: 0.75;
   user-select: none;
   
-  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+  filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
